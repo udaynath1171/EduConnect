@@ -1,0 +1,44 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "educonnect-ec97a",
+          "appId": "1:854984013848:android:3c15c084e5587d96da6b6d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "educonnect-ec97a",
+          "appId": "1:854984013848:ios:e02ffa9bf6d416e8da6b6d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "educonnect-ec97a",
+          "configurations": {
+            "android": "1:854984013848:android:3c15c084e5587d96da6b6d",
+            "ios": "1:854984013848:ios:e02ffa9bf6d416e8da6b6d",
+            "web": "1:854984013848:web:1535ef51c6a8e32cda6b6d"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
